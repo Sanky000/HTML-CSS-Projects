@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:#ccc;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.apply_box{
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: white;
+    box-shadow: 4px 3px 5px rgba(1,1,1,0.1);
+    border-radius: 20px;
+}
+.job_title{
+    font-size: 20px;
+}
+.form_container{
+    margin-top: 40px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap:30px;
+}
+.form_control{
+    display:flex;
+    flex-direction: column;
+}
+label{
+    margin-bottom: 3px;
+    font-size: 15px;
+    font-weight: bold;
+}
+input,text,select,textarea{
+    padding: 6px 10px;
+    border-radius: 7px;
+    border: 1px solid navy;
+    font-size: 15px;
+}
+.button_container{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+button{
+    background-color: red;
+    color: white;
+    border: transparent solid 1px;
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+button:hover{
+    background-color:grey;
+}
